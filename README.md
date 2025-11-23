@@ -35,8 +35,15 @@ pip install -r requirements.txt
 
 
 # Step 3
-run it
+Run it
 
 ```bash
 fastapi dev main.py
+```
+
+# Step 4
+Test it
+
+```bash
+curl -X POST http://localhost:8000/ -H "Content-Type: application/json" -d '{"message": "What is 2+2?"}'
 ```
