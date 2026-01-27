@@ -21,3 +21,8 @@ def api(body: UserReq) -> str:  # perform this function
         contents=body.message,  # where the input is the message we provided
     )
     return response.text  # and return the text response from it
+
+
+if __name__ == "__main__":
+    import uvicorn  # import uvicorn (this is the ASGI server that FastAPI uses)
+    uvicorn.run(app, host="0.0.0.0", port=8000) # run the app
