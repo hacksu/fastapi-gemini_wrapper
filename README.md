@@ -1,4 +1,4 @@
-This lesson will take about 30 minutes, best paired with flask
+This lesson will take about 30 minutes, best paired with [flask-colorpicker](https://github.com/hacksu/flask-colorpicker)
 
 # Intro
 Build your own free AI assistant that you can query from the web!
