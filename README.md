@@ -1,3 +1,5 @@
+This lesson will take about 30 minutes, best paired with flask
+
 # Intro
 Build your own free AI assistant that you can query from the web!
 
